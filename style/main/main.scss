@@ -1,0 +1,114 @@
+@import "../vars/vars.scss";
+
+.main__banner {
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.25) 0%,
+      rgba(0, 0, 0, 0.025) 62.79%
+    ),
+    url(../../assets/backg_main_banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 716px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .main__banner__info {
+    display: flex;
+    flex-direction: column;
+    width: 780px;
+    justify-content: center;
+    color: $white;
+    .main__banner__text h1 {
+      font-weight: 700;
+      font-size: 68px;
+      line-height: 110%;
+      margin-bottom: 28px;
+    }
+    .main__banner__text p {
+      margin-bottom: 52px;
+    }
+    .main__btn {
+      display: flex;
+      flex-direction: row;
+      .main__btn-color {
+        background-color: $orange;
+        width: 362px;
+        margin-right: 32px;
+      }
+      .main__btn-nocolor {
+        background: rgba(255, 255, 255, 0.2);
+        border: 1px solid #ffffff;
+        backdrop-filter: blur(2.5px);
+        width: 341px;
+      }
+    }
+  }
+}
+
+.main__section {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  .main__section__titel {
+    span {
+      color: $orange;
+    }
+  }
+  .main__section__row {
+    display: flex;
+    justify-content: space-between;
+    .item-card {
+      display: flex;
+      flex-direction: column;
+      width: 360px;
+
+      .item-card__content {
+        padding: 40px 32px;
+        .item-card__content-text {
+          color: $white;
+          .item-card__content-titel {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 140%;
+            margin-bottom: 8px;
+          }
+          .item-card__content-subtext {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 140%;
+            opacity: 0.5;
+            margin-bottom: 28px;
+          }
+          hr {
+            padding: 0;
+            height: 0px;
+            width: 296px;
+            border: none;
+            border: 1px solid #ffffff;
+            opacity: 0.2;
+            margin: 20px 0;
+          }
+        }
+        .btn{
+            padding: 16px 0;
+            margin-top: 36px;
+        }
+      }
+    }
+    .item-card-first {
+      background-image: url(../../assets/backg_card1.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .item-card-secound {
+      background-image: url(../../assets/backg_card2.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .item-card-third {
+      background-image: url(../../assets/backg_card3.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+}

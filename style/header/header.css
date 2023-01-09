@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+  color: #ff5900;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 100px;
+  border: 1px solid #ff5900;
+}
+
+.mainbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 100px;
+  height: 62px;
+}
+
+.titel {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  color: #212121;
+  margin-bottom: 60px;
+}
+
+.maintext {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.header__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 104px;
+}
+.header__info .header__logo {
+  display: flex;
+}
+.header__info .header__logo .header__logo-img {
+  margin-right: 15px;
+}
+.header__info .header__logo .header__logo-title {
+  font-weight: 900;
+  font-size: 25px;
+}
+.header__info .header__btn {
+  width: 222px;
+  height: 52px;
+}
+.header__info .header__btn img {
+  margin-right: 25px;
+}
+.header__info .header__lozung {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #212121;
+  opacity: 0.7;
+}
+.header__info .header__contacts a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #212121;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.header__nav .header__nav-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+}
+.header__nav .header__nav-link .header__nav__item {
+  text-decoration: none;
+  color: #212121;
+}
+.header__nav .header__nav__item_more {
+  display: flex;
+  align-items: center;
+}
+.header__nav .header__nav__item_more .header__nav__item-text {
+  margin-right: 5px;
+  text-decoration: none;
+  color: #212121;
+}/*# sourceMappingURL=header.css.map */
