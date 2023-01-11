@@ -52,18 +52,14 @@
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 0.01em;
-    .header__nav__item {
+    .header__nav-item {
       text-decoration: none;
       color: $black;
     }
   }
-  .header__nav__item_more {
-    display: flex;
-    align-items: center;
-    .header__nav__item-text {
-      margin-right: 5px;
-      text-decoration: none;
-      color: $black;
-    }
+  .header__nav-text {
+    margin-right: 5px;
+    text-decoration: none;
+    color: $black;
   }
 }

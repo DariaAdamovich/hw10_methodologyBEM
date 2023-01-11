@@ -107,15 +107,11 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.01em;
 }
-.header__nav .header__nav-link .header__nav__item {
+.header__nav .header__nav-link .header__nav-item {
   text-decoration: none;
   color: #212121;
 }
-.header__nav .header__nav__item_more {
-  display: flex;
-  align-items: center;
-}
-.header__nav .header__nav__item_more .header__nav__item-text {
+.header__nav .header__nav-text {
   margin-right: 5px;
   text-decoration: none;
   color: #212121;
@@ -183,32 +179,32 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-.main__banner .main__banner__info {
+.main__banner .main__banner-info {
   display: flex;
   flex-direction: column;
   width: 780px;
   justify-content: center;
   color: #ffffff;
 }
-.main__banner .main__banner__info .main__banner__text h1 {
+.main__banner .main__banner-info .main__banner-text h1 {
   font-weight: 700;
   font-size: 68px;
   line-height: 110%;
   margin-bottom: 28px;
 }
-.main__banner .main__banner__info .main__banner__text p {
+.main__banner .main__banner-info .main__banner-text p {
   margin-bottom: 52px;
 }
-.main__banner .main__banner__info .main__btn {
+.main__banner .main__banner-info .main__btn {
   display: flex;
   flex-direction: row;
 }
-.main__banner .main__banner__info .main__btn .main__btn-color {
+.main__banner .main__banner-info .main__btn .main__btn-color {
   background-color: #ff5900;
   width: 362px;
   margin-right: 32px;
 }
-.main__banner .main__banner__info .main__btn .main__btn-nocolor {
+.main__banner .main__banner-info .main__btn .main__btn-nocolor {
   background: rgba(255, 255, 255, 0.2);
   border: 1px solid #ffffff;
   -webkit-backdrop-filter: blur(2.5px);
@@ -216,42 +212,42 @@ body {
   width: 341px;
 }
 
-.main__section {
+.main-section {
   margin-top: 120px;
   margin-bottom: 120px;
 }
-.main__section .main__section__titel span {
+.main-section .main-section__titel span {
   color: #ff5900;
 }
-.main__section .main__section__row {
+.main-section .main-section__row {
   display: flex;
   justify-content: space-between;
 }
-.main__section .main__section__row .item-card {
+.main-section .main-section__row .item-card {
   display: flex;
   flex-direction: column;
   width: 360px;
 }
-.main__section .main__section__row .item-card .item-card__content {
+.main-section .main-section__row .item-card .item-card__content {
   padding: 40px 32px;
 }
-.main__section .main__section__row .item-card .item-card__content .item-card__content-text {
+.main-section .main-section__row .item-card .item-card__content .item-card__content-text {
   color: #ffffff;
 }
-.main__section .main__section__row .item-card .item-card__content .item-card__content-text .item-card__content-titel {
+.main-section .main-section__row .item-card .item-card__content .item-card__content-text .item-card__content-titel {
   font-weight: 700;
   font-size: 18px;
   line-height: 140%;
   margin-bottom: 8px;
 }
-.main__section .main__section__row .item-card .item-card__content .item-card__content-text .item-card__content-subtext {
+.main-section .main-section__row .item-card .item-card__content .item-card__content-text .item-card__content-subtext {
   font-weight: 500;
   font-size: 14px;
   line-height: 140%;
   opacity: 0.5;
   margin-bottom: 28px;
 }
-.main__section .main__section__row .item-card .item-card__content .item-card__content-text hr {
+.main-section .main-section__row .item-card .item-card__content .item-card__content-text hr {
   padding: 0;
   height: 0px;
   width: 296px;
@@ -260,21 +256,21 @@ body {
   opacity: 0.2;
   margin: 20px 0;
 }
-.main__section .main__section__row .item-card .item-card__content .btn {
+.main-section .main-section__row .item-card .item-card__content .btn {
   padding: 16px 0;
   margin-top: 36px;
 }
-.main__section .main__section__row .item-card-first {
+.main-section .main-section__row .item-card__first {
   background-image: url(../../assets/backg_card1.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
-.main__section .main__section__row .item-card-secound {
+.main-section .main-section__row .item-card__secound {
   background-image: url(../../assets/backg_card2.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
-.main__section .main__section__row .item-card-third {
+.main-section .main-section__row .item-card__third {
   background-image: url(../../assets/backg_card3.png);
   background-size: cover;
   background-repeat: no-repeat;

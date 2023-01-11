@@ -13,19 +13,19 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  .main__banner__info {
+  .main__banner-info {
     display: flex;
     flex-direction: column;
     width: 780px;
     justify-content: center;
     color: $white;
-    .main__banner__text h1 {
+    .main__banner-text h1 {
       font-weight: 700;
       font-size: 68px;
       line-height: 110%;
       margin-bottom: 28px;
     }
-    .main__banner__text p {
+    .main__banner-text p {
       margin-bottom: 52px;
     }
     .main__btn {
@@ -46,15 +46,15 @@
   }
 }
 
-.main__section {
+.main-section {
   margin-top: 120px;
   margin-bottom: 120px;
-  .main__section__titel {
+  .main-section__titel {
     span {
       color: $orange;
     }
   }
-  .main__section__row {
+  .main-section__row {
     display: flex;
     justify-content: space-between;
     .item-card {
@@ -95,17 +95,17 @@
         }
       }
     }
-    .item-card-first {
+    .item-card__first {
       background-image: url(../../assets/backg_card1.png);
       background-size: cover;
       background-repeat: no-repeat;
     }
-    .item-card-secound {
+    .item-card__secound {
       background-image: url(../../assets/backg_card2.png);
       background-size: cover;
       background-repeat: no-repeat;
     }
-    .item-card-third {
+    .item-card__third {
       background-image: url(../../assets/backg_card3.png);
       background-size: cover;
       background-repeat: no-repeat;
